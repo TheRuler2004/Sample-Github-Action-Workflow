@@ -5,9 +5,11 @@ on:
         branches:
             - master
             - test
-    pull_request:
+    pull_request: # Event: Whenever a pull is made to the repository on the master branch
         branches:
             - master
+    workflow_dispatch: # Event: Whenever the manually triggered
+
 
 jobs:
     on-push: # Job 1
@@ -22,4 +24,4 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: "Running on master pull request"
-              run: echo "Running on master pull" 
+              run: echo "Running on master pull"  
