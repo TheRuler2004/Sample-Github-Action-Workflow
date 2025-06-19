@@ -11,4 +11,8 @@ jobs:
         steps:
             - name: "Running on master push"
               run: echo "Running on master push"
+            
+            - name: "Date of Execution"
+              run: date
               
+
