@@ -14,4 +14,6 @@ jobs:  # it will be configure what job to be done
     steps:
       - name: "Print Hello World" # Name of the steps
         run: echo "Hello World"  # What is done in steps
-      
+        
+      - name: "Print date"
+        run: date 
