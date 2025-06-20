@@ -25,4 +25,7 @@ jobs:
             - name: "Running the pull request"
               run: echo "Running on pull request"
 
+            - name: "Print Date"
+              run: date
+
 
